@@ -1,0 +1,24 @@
+{
+  "name": "mattdanger/phalcon-file",
+  "type": "library",
+  "description": "Simple file component for Phalcon v1.4.x",
+  "keywords": ["phalcon"],
+  "homepage": "https://github.com/mattdanger/phalcon-file",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matt West",
+      "email": "matt@mattdanger.net",
+      "homepage": "http://mattdanger.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhalconFile\\": "src/PhalconFile"
+    }
+  }
+}
